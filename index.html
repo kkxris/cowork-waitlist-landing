@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Co-Work & — Online Cohort Waitlist</title>
+<meta name="description" content="Build an AI content system with Claude Code + Notion. Online, two 1.5-hour sessions. The first edition sold out — join the waitlist for this one.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ===== NAV ===== -->
+<header class="nav">
+  <div class="container nav-row">
+    <div class="brand">Co-Work &amp;</div>
+    <div class="mono badge">sold out once · online cohort</div>
+  </div>
+</header>
+
+<!-- ===== SECTION 1 — HERO + WAITLIST FORM ===== -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow"><span class="dot"></span>SOLD OUT ONCE<span class="dot"></span>ONLINE<span class="dot"></span>2 SESSIONS</span>
+
+      <h1>Your content calendar is lying to you.</h1>
+
+      <p class="lead">You open Claude. Type a prompt. Get something that sounds like every other LinkedIn post this week. Rewrite it. Repeat tomorrow. That's not a system, that's a part-time job you didn't sign up for. We're fixing that in two sessions.</p>
+
+      <div class="urgency mono">
+        <span class="bolt">⚡</span>
+        <span>First edition sold out before most people even knew it existed. This time it's online, which usually means it fills <strong>faster</strong>, not slower.</span>
+      </div>
+
+      <p class="about">'Co-Work &amp;' is Vidushi's community for people who'd rather build something real than sit through another webinar. Workshops, co-working, and the occasional chaos. ✨</p>
+    </div>
+
+    <div class="form-wrap">
+      <div class="next-card">
+        <div class="badge-pill mono">⚡ WAITLIST, NOT A SALES PITCH</div>
+        <h2>Save your spot before it's gone (again)</h2>
+        <form id="waitlist-form">
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your full name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email" placeholder="you@email.com" required>
+          </div>
+          <div class="field">
+            <label for="linkedin">LinkedIn profile URL</label>
+            <input id="linkedin" name="linkedin" type="url" placeholder="linkedin.com/in/you">
+          </div>
+          <button type="submit" class="btn-solid mono">I want in →</button>
+        </form>
+        <p class="fineprint">One email when doors open. We're not going to spam you, we barely have time to post ourselves.</p>
+        <p class="confirm mono" id="confirm-msg" hidden>You're on the list. We'll email you the second doors open.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION 2 — PHOTOS ===== -->
+<section class="photos">
+  <div class="container">
+    <div class="photos-head">
+      <div>
+        <div class="mono label">— last time, for real</div>
+        <h2>Screens on. Cameras on. Actually building.</h2>
+      </div>
+      <div class="mono hint"><span class="blink"></span>full room, every time</div>
+    </div>
+
+    <div class="photo-grid">
+      <div class="ph ph-tall">
+        <span class="ph-icon">▣</span>
+        <span>Live session, screen-shared</span>
+      </div>
+      <div class="ph">
+        <span class="ph-icon">◉</span>
+        <span>Host on camera</span>
+      </div>
+      <div class="ph">
+        <span class="ph-icon">▢</span>
+        <span>Chat, buzzing</span>
+      </div>
+      <div class="ph ph-wide">
+        <span class="ph-icon">▦</span>
+        <span>The workbook attendees build from</span>
+      </div>
+    </div>
+    <p class="mono ph-note">Placeholders — swap in real screenshots from the last cohort before this goes live.</p>
+  </div>
+</section>
+
+<!-- ===== SECTION 3 — DETAILS ===== -->
+<section class="details">
+  <div class="container">
+    <div class="cards-grid">
+
+      <div class="card">
+        <div class="mono card-label">What you'll actually build</div>
+        <h2>Online, two sessions, no fluff.</h2>
+        <ul>
+          <li>A skill file that writes like you, not like a robot that read your brand deck once</li>
+          <li>Notion doing the remembering, so Claude stops asking who you are every session</li>
+          <li>One workflow, four platforms, zero 2am copy-paste</li>
+          <li>A real campaign, done in the room, not a "homework" you'll ghost</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="mono card-label">The boring but necessary bit</div>
+        <h2>Everything you need to know.</h2>
+        <div class="fact-list">
+          <div><strong>When:</strong> two sessions, 1.5 hrs each, online. Dates confirmed once the waitlist gives us a headcount.</div>
+          <div><strong>Who it's for:</strong> founders doing their own marketing, marketers sick of the blank page, anyone posting on a schedule and hating it a little.</div>
+          <div><strong>Bring:</strong> free Notion account, a Claude plan (Pro's enough), and your actual brand voice, not a mood board.</div>
+          <div><strong>Hosts:</strong> Vidushi and Hina, more on them below.</div>
+          <div><strong>Coding needed:</strong> none. If you can text a friend, you can do this.</div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Why act now -->
+    <div class="cta-banner">
+      <div class="cta-copy">
+        <div class="cta-line">We didn't expect the first one to sell out.</div>
+        <div class="cta-sub">We definitely didn't expect it to sell out before the Instagram post went live. Don't be the "wait, it's full already?" person twice.</div>
+      </div>
+      <a href="#waitlist-form" class="btn-light mono">Join the waitlist</a>
+    </div>
+
+    <!-- Hosts -->
+    <div class="hosts">
+      <div class="host">
+        <div class="host-initial">V</div>
+        <div>
+          <div class="host-name">Vidushi</div>
+          <p>Spent 7+ years in marketing before she got tired of doing everything by hand, so she built her own AI content tool instead of waiting for someone else to. Now she teaches other people to do the same.</p>
+        </div>
+      </div>
+      <div class="host">
+        <div class="host-initial">H</div>
+        <div>
+          <div class="host-name">Hina</div>
+          <p>Engineer who's spent 14 years making huge systems not fall over at Adobe and Wayfair. She's the one who'll actually explain why your Claude usage keeps costing more than expected.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="container foot-row">
+    <div>Co-Work &amp; · online, this time</div>
+    <div>Sold out once already, you've been warned</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
